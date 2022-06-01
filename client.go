@@ -25,6 +25,7 @@ type Client struct {
 	ApiKey       string
 	ApiSecret    string
 	CompanyID    string
+	CompanyCode  string
 	Origin       string
 	LogLevel     int
 	Logger       *log.Logger
